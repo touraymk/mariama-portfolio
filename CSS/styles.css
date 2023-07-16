@@ -8,6 +8,11 @@ h1 {
   font-family: "Kalam", cursive;
 }
 
+p {
+  margin: 20px 15px;
+  font-size: 14px;
+}
+
 .hero-section {
   background-image: url(/Images/hero-2.jpg);
   width: 100%;
@@ -20,8 +25,25 @@ h1 {
   flex-direction: column;
 }
 
+.content-container {
+  text-align: center;
+  margin: 40px;
+}
+
+.content-container h2 {
+  font-family: "Kalam", cursive;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 /*     BUTTONS     */
+
+/*     Next Button     */
 
 .next-content {
   display: flex;
@@ -42,7 +64,7 @@ h1 {
 
 .next-content button:hover {
   background: #ba8d82;
-  transition: all 0.2s ease;
+  transition: all .2s ease;
 }
 
 .next-content a {
@@ -51,9 +73,36 @@ h1 {
 }
 
 .next-content a:hover {
-  color: #fff;
+  color: aliceblue
 }
 
 .round-button {
   border-radius: 70%;
+}
+
+
+/*     Launch button     */
+
+.button-content {
+  margin: 50px 0;
+}
+
+.launch-button {
+  border: 2px solid #91695f;
+  background: transparent;
+}
+
+.launch-button:hover {
+  background: #ba8d82;
+  color: aliceblue;
+  transition: all .2s ease;
+}
+
+.button-content a {
+  text-decoration: none;
+  color: #91695f;
+  font-size: 12px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  line-height: 1;
 }
