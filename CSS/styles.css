@@ -1,0 +1,59 @@
+body {
+  margin: 46px 0 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 66px;
+  font-family: "Kalam", cursive;
+}
+
+.hero-section {
+  background-image: url(/Images/hero-2.jpg);
+  width: 100%;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/*     BUTTONS     */
+
+.next-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.next-content button {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  font-size: 31px;
+  height: 80px;
+  width: 80px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+}
+
+.next-content button:hover {
+  background: #ba8d82;
+  transition: all 0.2s ease;
+}
+
+.next-content a {
+  text-decoration: none;
+  color: #91695f;
+}
+
+.next-content a:hover {
+  color: #fff;
+}
+
+.round-button {
+  border-radius: 70%;
+}
