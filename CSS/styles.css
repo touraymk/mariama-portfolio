@@ -10,7 +10,7 @@ h1 {
 
 p {
   margin: 20px 15px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .hero-section {
@@ -105,4 +105,8 @@ p {
   padding: 10px 15px;
   border-radius: 4px;
   line-height: 1;
+}
+
+#intro {
+  font-family: "Kalam", cursive;
 }
