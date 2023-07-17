@@ -41,6 +41,27 @@ p {
   flex-direction: column;
 }
 
+.showcase-card {
+  padding: 10px;
+  border-radius: 4px;
+  /*background-image: url(/Images/about-background.jpg);
+  background-size: contain;*/
+  background: rgba(255, 233, 227, .2);
+}
+
+.showcase-card img {
+  height: 150px;
+}
+
+.card-text h4 {
+  font-size: 14px;
+}
+
+.card-text p {
+  font-size: 9px;
+  margin: 0;
+}
+
 /*     BUTTONS     */
 
 /*     Next Button     */
@@ -109,4 +130,15 @@ p {
 
 #intro {
   font-family: "Kalam", cursive;
+}
+
+
+@media (max-width: 900px) {
+  .showcase-card {
+    margin-bottom: 10px;
+  }
+
+  .showcase-card img {
+    margin-top: 20px;
+  }
 }
