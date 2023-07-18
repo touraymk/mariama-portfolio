@@ -4,9 +4,10 @@
 }
 
 body {
-  margin: 46px 0 0;
   font-family: "Poppins", sans-serif;
+  margin: 0 auto;
 }
+
 
 h1 {
   font-size: 66px;
@@ -18,9 +19,25 @@ p {
   font-size: 12px;
 }
 
+nav a:active,
+nav a:hover {
+  color: var(--branding-color);
+}
+
+.brand-name {
+  font-family: "Kalam", cursive;
+  padding-left: 20px;
+  font-size: 28px;
+
+}
+
+.navigation-links {
+  font-size: 12px;
+}
+
 .hero-section {
+  margin: 46px 0 0;
   background-image: url(/Images/hero-2.jpg);
-  width: 100%;
 }
 
 .intro {
@@ -28,6 +45,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: var(--branding-color);
 }
 
 .content-container {
