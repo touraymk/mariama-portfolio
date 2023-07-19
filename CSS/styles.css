@@ -95,6 +95,12 @@ ul li {
   flex-direction: column;
 }
 
+/*     About HTML     */
+
+.about-content {
+  color: var(--branding-color);
+}
+
 /*     Showcase HTML     */
 
 .showcase-card {
@@ -203,6 +209,10 @@ ul li {
 
 #intro {
   font-family: "Kalam", cursive;
+}
+
+#name {
+  font-weight: bold;
 }
 
 
