@@ -20,35 +20,37 @@
   <!-- Navbar -->
   <div class="container">
     <nav class="navbar nav navbar-expand-md navbar-light bg-transparent fixed-top mt-0">
-      <a class="navbar-brand brand-name" href="#">Mariama Touray 🦄</a>
+      <a class="navbar-brand brand-name" href="/">Mariama Touray 🦄</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav navigation-links">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">About me</a>
-          <a class="nav-item nav-link" href="#">My work</a>
+          <a class="nav-item nav-link active" href="/" title="Homepage of front-end developer Mariama Touray">Home <span
+              class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="/about.html" title="About Mariama Touray">About me</a>
+          <a class="nav-item nav-link" href="/showcase.html" title="Showcase of the projects made by Mariama Touray">My
+            work</a>
           <a class="nav-item nav-link" href="#">Contact</a>
         </div>
       </div>
     </nav>
   </div>
 
-  <div class="hero-section w-100 p-5">
+  <div class="hero-section">
     <!-- Hero section -->
     <div id="hero" class="intro">
       <h2 class="text-center mt-5">👋🏽 Hi I'm</h2>
       <h1 class="text-center mb-2">Mariama Touray</h1>
       <hr class="w-50" />
-      <h3 class="text-center text-muted mb-5">🇳🇴 Front-end developer based in Norway</h3>
+      <h3 class="text-center mb-5">🇳🇴 Front-end developer based in Norway</h3>
     </div>
 
     <!-- Next button -->
     <div class="next-content">
       <button class="round-button">
-        <a href="#about-section">&#8595;</a>
+        <a href="#about-section" title="To about content">&#8595;</a>
       </button>
     </div>
   </div>
@@ -61,38 +63,45 @@
         <div class="about-paragraph">
           <p>
             Hi there, my name is Mariama Touray and I am a budding front-end developer based in Oslo, Norway.
-            I am acreative indiviual who is passionate aboutxploring new topics and learning new skills.
+            I am a creative indiviual who is passionate about exploring new topics and learning new skills.
           </p>
           <p>
-            Click the button below to learn more about me!
+            Click the buttons below to learn more about me and to see what i've been working on!
           </p>
         </div>
 
-        <!-- About me BUTTON -->
-        <div class="button-content">
-          <a href="/about.html" class="launch-button">About me</a>
+        <!-- Navigation buttons -->
+        <div class="d-flex justify-content-evenly">
+          <!-- About me BUTTON -->
+          <div class="button-content">
+            <a href="/about.html" class="launch-button" title="About Mariama Touray">About me</a>
+          </div>
+          <!-- Portfolio BUTTON -->
+          <div class="button-content">
+            <a href="/showcase.html" class="launch-button" title="Mariama Touray's Showcase">See Projects</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Portfolio BUTTON -->
-  <div class="button-content">
-    <a href="#" class="launch-button">See Projects</a>
-  </div>
+
 
   <!-- Footer -->
-  <footer class="container">
+  <footer>
     <div class="email-link text-center m-4">
       <i class="fa solid fa-envelope fa-spin"></i>
-      <a href="mailto:mkjellstromtrouay@gmail.com" class="text-decoration-none">
+      <a href="mailto:mkjellstromtrouay@gmail.com" class="text-decoration-none" title="Contact Mariama Touray">
         mkjellstromtrouay@gmail.com
       </a>
     </div>
-    <div class="so-me-contact d-flex justify-content-center m-4">
+    <div class="so-me-contact d-flex justify-content-center mt-4">
       <ul class="list-unstyled d-inline-flex">
-        <li><a href="#"><i class="fa-brands fa-github shadow"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-facebook fa-hover-bounce shadow"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-linkedin shadow"></i></a></li>
+        <li><a href="https://www.github.com/touraymk" target="_blank" title="GitHub account of Mariama Touray"><i
+              class="fa-brands fa-github shadow"></i></a></li>
+        <li><a href="https://facebook.com/mktou" title="Facebook account of Mariama Touray"><i
+              class="fa-brands fa-facebook fa-hover-bounce shadow"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/mariama-kjellstr%C3%B8m-touray-9b0637262/"
+            title="Linkedin account of Mariama Touray"><i class="fa-brands fa-linkedin shadow"></i></a></li>
       </ul>
     </div>
   </footer>
