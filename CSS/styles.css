@@ -30,7 +30,8 @@ footer .email-link a {
   color: var(--branding-color);
 }
 
-footer i {
+footer i,
+.contact-hero-section i {
   color: var(--branding-color);
   background: rgba(196, 193, 224, 0.6);
   border-radius: 50%;
@@ -39,7 +40,8 @@ footer i {
   transition: all 150ms ease-in-out;
 }
 
-footer i:hover {
+footer i:hover,
+.contact-hero-section i:hover {
   color: rgba(196, 193, 224, 0.7);
   background: var(--branding-color);
 }
@@ -93,6 +95,8 @@ ul li {
   flex-direction: column;
 }
 
+/*     Showcase HTML     */
+
 .showcase-card {
   padding: 10px;
   border-radius: 4px;
@@ -113,6 +117,23 @@ ul li {
   font-size: 9px;
   margin: 0;
 }
+
+/*     Contact HTML     */
+
+.contact-hero-section {
+  background-image: url(/Images/contact1.jpg);
+  background-position: top;
+  background-size: cover;
+  padding: 60px;
+  border-radius: 4px;
+}
+
+.contact-hero-section p {
+  color: var(--background-color);
+}
+
+
+
 
 /*     BUTTONS     */
 
