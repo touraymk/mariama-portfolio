@@ -76,7 +76,7 @@ ul li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: darkolivegreen;
+  color: var(--branding-color);
 }
 
 .content-container {
